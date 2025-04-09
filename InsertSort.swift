@@ -102,7 +102,7 @@ let filePath = "./output.txt"
 do {
     // Attempt to write the output string to the file
     try outputStr.write(toFile: filePath, atomically: true, encoding: .utf8)
-    
+
     // Display a blank line for spacing and a success message
     print("\nSuccessfully wrote to 'output.txt'")
 } catch {
