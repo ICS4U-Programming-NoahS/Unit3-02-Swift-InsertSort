@@ -80,7 +80,7 @@ print("Welcome to the insertion sort program!")
 // Get the unsorted array by calling the populatingArrays function
 var arrayNum = populatingArrays()
 
-// Get the sorted array by calling the bubbleSort function
+// Get the sorted array by calling the insertSort function
 arrayNum = insertSort(arrayInt: arrayNum)
 
 // Initialize the output string
@@ -88,6 +88,7 @@ var outputStr = ""
 
 // Iterate through the sorted array
 for num in arrayNum {
+
     // Add each number to the output string, separated by a space
     outputStr += "\(num) "
 }
